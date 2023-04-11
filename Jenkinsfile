@@ -7,6 +7,7 @@ pipeline {
             }
             steps {
                 sh 'echo "Building Artifact from Main branch"'
+                 sh 'echo "Deploying Code from Main branch"'
  
                 sh 'echo "Deploying Code from Main branch"'
             }
